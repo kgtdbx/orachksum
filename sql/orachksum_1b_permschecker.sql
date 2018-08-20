@@ -17,7 +17,6 @@ DEF orachk_file_pref     = 'privs_tab'
 DEF orachk_srczip_pref   = 'privs'
 DEF orachk_sql_file      = 'create_csv_db_privs.sql'
 DEF orachk_comp_column   = '3,9'
---@@&&orachksum_fc_run_check_exponly.
 @@&&orachksum_fc_run_check_tables.
 
 --------------

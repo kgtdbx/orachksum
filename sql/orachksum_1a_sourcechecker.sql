@@ -41,15 +41,6 @@ DEF orachk_comp_column  = '2,3'
 
 --------------
 
--- @@&&fc_set_value_var_decode. main_table '&&is_ver_ge_12.' 'Y' 'CDB_SYNONYMS' 'DBA_SYNONYMS'
--- DEF orachk_subject      = 'SYNONYM'
--- DEF orachk_file_pref    = 'synonym'
--- DEF orachk_sql_file     = 'create_csv_db_synonym.sql'
--- DEF orachk_comp_column  = '2,3'
--- @@&&orachksum_fc_run_check_hash.
-
---------------
-
 DEF title = 'Objects with Difference';
 DEF totfiles = 200
 
