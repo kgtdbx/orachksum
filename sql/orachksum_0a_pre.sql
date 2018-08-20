@@ -2,9 +2,9 @@
 -- Note it will load only once in the beggining.
 
 -- Checksum Method
--- csvfast: Nothing created on DB. Fast using awk to compare objects.
--- fast:    External tables created on DB. Extremely Fast SQL to compare.
-DEF orachk_method = 'csvfast'
+-- csv:   Nothing created on DB. Fast using awk to compare objects.
+-- fast:  External tables created on DB. Extremely Fast SQL to compare.
+DEF orachk_method = 'csv'
 
 -- Checksum Dir Files
 DEF orachk_workdir = '&&moat369_sw_base./main'
