@@ -4,7 +4,6 @@
 -- Checksum Method
 -- csvfast: Nothing created on DB. Fast using awk to compare objects.
 -- fast:    External tables created on DB. Extremely Fast SQL to compare.
--- null:    Old Method. Uses less space but very slow.
 DEF orachk_method = 'csvfast'
 
 -- Checksum Dir Files
@@ -33,8 +32,6 @@ DEF orachk_exec_sh = '&&orachk_workdir./sql/exec_sh.sql'
 DEF orachksum_fc_run_check_hash    = '&&moat369_sw_folder./orachksum_fc_run_check_hash_&&orachk_method..sql'
 DEF orachksum_fc_run_check_tables  = '&&moat369_sw_folder./orachksum_fc_run_check_tables_&&orachk_method..sql'
 DEF orachksum_fc_gen_orig_table    = '&&moat369_sw_folder./orachksum_fc_gen_orig_table_&&orachk_method..sql'
--- DEF orachksum_fc_run_check_sha256  = '&&moat369_sw_folder./orachksum_fc_run_check_sha256.sql'
--- DEF orachksum_fc_run_check_exponly = '&&moat369_sw_folder./orachksum_fc_run_check_exponly.sql'
 
 -- Default Users and Roles
 
